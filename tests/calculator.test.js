@@ -3,12 +3,12 @@ const { default: expect } = require('expect');
 const calculator = require('../calculator');
 
 test('adds a + b', () => {
-    // Arrange
+    // 
     let a = 1;
     let b = 2;
     let expected = 3;
 
-    // Act
+    // Actual
     const actual = calculator.sum(a, b);
 
     // Assert
